@@ -1,0 +1,140 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+@media only screen and (max-width:1300px){
+    .container{
+        width: 1000px;
+    }
+}
+@media only screen and (max-width:1075px){
+    .container{
+        width: 700px;
+    }
+    .testimonials-img {
+      
+      width: 300px;
+      height: 300px; 
+    }
+    .we-about-img{
+      display:none;
+    }
+    .we-about-text{
+      width:100%;
+    }
+.popular-dish-card ul{
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.slider-img{
+  display:none;
+}
+.slider-content{
+  text-align: center;
+}
+.slider-content .slider-text{
+  width:100%;
+}
+.slider-text ul{
+
+  -webkit-box-pack: center;
+
+      -ms-flex-pack: center;
+
+          justify-content: center;
+}
+.we-about{
+      text-align: center;
+      
+    } 
+    /*.we-about-text{
+        padding-left: 100px;
+    } 
+    .menu{
+        height: 100vh;
+        position: fixed;
+        top:0;
+        right:0;
+        left:0;
+        z-index: 11;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        background: rgb(221, 78, 78);
+        transition: top 1s ease;
+        color:#fff;
+    }
+    .menu a{
+        color:#fff;
+    }
+    .menu .closeMenu{
+        display: block;
+        position: absolute;
+        top:20px;
+        right:20px;
+
+    }
+    .menu .openMenu{
+        display: block;
+    }*/
+}
+@media only screen and (max-width:760px){
+.container{
+        width: 500px;
+    }
+    .footer-content,
+    .footer-bottom{
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      
+    }
+    .footer-bottom{
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+    }
+    .footer-bottom p{
+      margin-bottom:10px;
+    }
+    .footer-menu,
+    .company-small-about{
+      margin-top:7px;
+      margin-bottom:7px;
+    }
+    .testimonials-container{
+      display:none;
+    }
+    .testimonials-text{
+      width:100%;
+    }
+   .mobile-menu{
+     display:inline-block;
+   }
+   .header{
+     -ms-flex-pack: distribute;
+         justify-content: space-around;
+   }
+    .menu,
+    .user{
+      display:none;
+    }
+    .subscribe-text button{
+        left:50%;
+        top:160%; 
+        -webkit-transform: translate(-50%,-160%); 
+            -ms-transform: translate(-50%,-160%); 
+                transform: translate(-50%,-160%);
+        padding:10px 15px;
+    }
+    .slider-content .slider-text h1{ font-size: 30px; } .slider-content .slider-text p{ font-size: 14px; }
+}
+@media only screen and (max-width:400px){
+  .container{
+        width: 300px;
+    }
+}
